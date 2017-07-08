@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="file:///Users/nongluckloahapoonrungsi/Desktop/mysite/luck.html#" />
+<title>mainPageTest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">mainPageTest</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>file:///Users/nongluckloahapoonrungsi/Documents/GitHub/demo/luck.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=firstname</td>
+	<td>Daniel</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=lastname</td>
+	<td>Gottlieb</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=address</td>
+	<td>2004 winged foot court</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=city</td>
+	<td>reston</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=state</td>
+	<td>va</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=zipcode</td>
+	<td>20191</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email</td>
+	<td>daniel@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>1234</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Sign Up</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

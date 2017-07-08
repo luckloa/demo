@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="file:///Users/nongluckloahapoonrungsi/Documents/GitHub/demo/patient.html" />
+<title>patienttest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">patienttest</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>file:///Users/nongluckloahapoonrungsi/Documents/GitHub/demo/patient.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=hospitalname</td>
+	<td>inova fair oak hospital</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=streetaddress</td>
+	<td>1234 fair oak</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=city</td>
+	<td>chantily</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=stateprovince</td>
+	<td>va</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=postalzip</td>
+	<td>20171</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=areacode</td>
+	<td>704</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=phonenumber</td>
+	<td>2222222</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=chartnumber</td>
+	<td>sn22222</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=firstname</td>
+	<td>sue</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=middlename&lt;</td>
+	<td>ah</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=lastname&lt;</td>
+	<td>beeta</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.form-control.username-form</td>
+	<td>sue@gmail.com</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
