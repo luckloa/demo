@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>luck'sjourney</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				 aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+				<a class="navbar-brand" href="#">
+      	<img style="height:70px; top:-8px; position: absolute;" alt="Brand" src="http://img.time2draw.com/2014/06/How-to-Draw-Doraemon-final-step-215x382.png">
+      </a>
+			</div>
+
+
+			<div style="padding-left: " class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">History <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Doraeme</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Doraemon <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Friends</a></li>
+							<li><a href="#">Gadgets</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Luck's Profile<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Resume</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Things to do <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<h1>Hello, world!</h1>
+		<p>This is a blue robotic cat from the future. His name is "DORAEMON". 4,500 marveled gadgets come out of Doreaemon's yogigen-pocket.
+			</p>
+		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+	<fieldset>
+		<legend>Personal information:</legend>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="firstname">First name:</label>
+						<input type="text" class="form-control" id="firstname" name="firstname">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="lastname">Last name:</label>
+						<input type="text" class="form-control" id="lastname" name="lastname">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label>Prefix</label>
+						<select class="form-control" id="sel1">
+			        	<option>Mr.</option>
+			        	<option>Mrs.</option>
+			        	<option>Miss</option>  
+		      		</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="firstname">Address:</label>
+						<input type="text" class="form-control" id="address" name="address">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="lastname">City:</label>
+						<input type="text" class="form-control" id="city" name="city">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="firstname">State:</label>
+						<input type="text" class="form-control" id="state" name="state">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="firstname">Zip Code:</label>
+						<input type="text" class="form-control" id="zipcode" name="zipcode">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="firstname">Phone no.:</label>
+						<input type="text" class="form-control" id="phone no." name="phone no.">
+					</div>
+				</div>
+			</div>
+			<a class="btn btn-primary btn-lg" href="#" role="button">Submit & Continue</a>
+	</fieldset>
+
+	<fieldset>
+		<legend>Sign up:</legend>
+		<form>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input id="email" type="text" class="form-control" name="email" placeholder="Email">
+						</div>
+					</div>
+
+
+					<div class="col-xs-6">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+							<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<a class="btn btn-primary btn-md" href="#" role="button">Sign Up</a>
+					</div>
+				</div>
+			</div>
+		</form>
+	</fieldset>
+</body>
+</html>

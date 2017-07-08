@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>luck'sjourney</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+	 <script src="./app.js"></script>
+</head>
+
+<body>
+	<div style="display:none; position: absolute;top: 30px; z-index: 1; width:400px; margin-left:-200px; left:50%;" class="alert alert-success" role="alert" id="pageAlert">
+		<span id="alertMsg"></span>
+	</div>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				 aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+				<a class="navbar-brand" href="#">
+      	<img style="height:70px; top:-8px; position: absolute;" alt="Brand" src="http://img.time2draw.com/2014/06/How-to-Draw-Doraemon-final-step-215x382.png">
+      </a>
+			</div>
+
+
+			<div style="padding-left:50px" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">History <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Doraeme</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Doraemon <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Friends</a></li>
+							<li><a href="#">Gadgets</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Luck's Profile<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Resume</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Things to do <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<h1>Hello, world!</h1>
+		<p>This is a blue robotic cat from the future. His name is "DORAEMON". 4,500 marveled gadgets come out of Doreaemon's yogigen-pocket.
+			</p>
+		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+
+				<fieldset id="field1">
+					<legend>Invoice</legend>
+					<div class="row">
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="productid">Product Id</label>
+								<input type="text" class="form-control" id="productid1" name="productid1">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="description">Description</label>
+								<input type="text" class="form-control" id="description1" name="despription1">
+
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="quantity">Price</label>
+								<input type="text" class="form-control" id="price1" name="price1">
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="unitprice">Quantity</label>
+								<input type="text" class="form-control" id="quanity1" name="quanity1">
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="amount">Amount</label>
+								<input type="text" class="form-control" id="amount1" name="amount1">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="productid">Product Id</label>
+								<input type="text" class="form-control" id="productid2" name="productid2">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="description">Description</label>
+								<input type="text" class="form-control" id="description2" name="despription2">
+
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="quantity">Price</label>
+								<input type="text" class="form-control" id="price2" name="price2">
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="unitprice">Quantity</label>
+								<input type="text" class="form-control" id="quanity2" name="quanity2">
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="amount">Amount</label>
+								<input type="text" class="form-control" id="amount2" name="amount2">
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="productid">Product Id</label>
+								<input type="text" class="form-control" id="productid3" name="productid3">
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="form-group">
+								<label for="description">Description</label>
+								<input type="text" class="form-control" id="description3" name="despription3">
+
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="quantity">Price</label>
+								<input type="text" class="form-control" id="price3" name="price3">
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="unitprice">Quantity</label>
+								<input type="text" class="form-control" id="quanity3" name="quanity3">
+							</div>
+						</div>
+						<div class="col-xs-2">
+							<div class="form-group">
+								<label for="amount">Amount</label>
+								<input type="text" class="form-control" id="amount3" name="amount3">
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="form-group">
+								<a class="btn btn-primary btn-lg" id="addLineBtn" role="button">+Add Line</a>
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="form-group">
+								<label for="total">Total</label>
+								<input type="text" class="form-control" id="total" name="total">
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="form-group">
+								<label for="">Amount</label>
+								<input type="text" class="form-control" id="" name="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="form-group">
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="form-group">
+								<label for="paidamount">Paid Amount</label>
+								<input type="text" class="form-control" id="paidamount" name="paidamount">
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="form-group">
+								<label for=""></label>
+								<input type="text" class="form-control" id="" name="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="form-group">
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="form-group">
+								<label for="balancedue">Balance Due</label>
+								<input type="text" class="form-control" id="balancedue" name="balancedue">
+							</div>
+						</div>
+						<div class="col-xs-3">
+							<div class="form-group">
+								<label for=""></label>
+								<input type="text" class="form-control" id="" name="">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="form-group">
+							<label for="comment">Comment:</label>
+							<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+					</div>
+					<a class="btn btn-primary btn-lg" id="submitContinueBtn" role="button">Submit & Continue</a>
+				</fieldset>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+</body>
+
+</html>
