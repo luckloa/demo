@@ -42,6 +42,11 @@
 	<td>20171</td>
 </tr>
 <tr>
+	<td>select</td>
+	<td>id=sel1</td>
+	<td>label=USA</td>
+</tr>
+<tr>
 	<td>type</td>
 	<td>id=areacode</td>
 	<td>704</td>
@@ -75,6 +80,21 @@
 	<td>type</td>
 	<td>css=input.form-control.username-form</td>
 	<td>sue@gmail.com</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=male</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn.btn-info</td>
+	<td></td>
 </tr>
 </tbody></table>
 </body>
