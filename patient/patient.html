@@ -11,7 +11,7 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 	 crossorigin="anonymous"></script>
-	<script src="./app.js"></script>
+	<script src="../app.js"></script>
 </head>
 
 <body>
@@ -204,24 +204,28 @@
 
 				</div>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="form-group">
-				<label class="control-label col-xs-2" for="sex">Gender:</label>
-				<div class="col-xs-10">
-					<div class="form-group has-feedback has-feedback-left">
-						<input type="gender" class="form-control" placeholder="Gender" />
-
-						<i class="glyphicon glyphicons-gender-intersex"></i>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-
+<div class="row">
+	<div class="form-group">	
+	<div class="col-xs-2">		
+		<p>Choose your gender:</p>
 	</div>
+	<div class="col-xs-4">	
+	        <label for="male">Male</label>
+	        <input type="radio" name="gender" id="male" value="male" checked>
+	</div>
+	<div class="col-xs-4">       
+	        <label for="female">Female</label>
+	        <input type="radio" name="gender" id="female" value="female">
+    </div>
+	</div>	
+</div>
+<div class="row">	
+	<div class="col-xs-6">
+	<input type="submit" class="btn btn-info" value="Submit">
+	</div>
+</div>
+
+</div>
 </body>
 
 </html>

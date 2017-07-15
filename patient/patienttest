@@ -13,7 +13,7 @@
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>file:///Users/nongluckloahapoonrungsi/Documents/GitHub/demo/patient.html</td>
+	<td>file:///Users/nongluckloahapoonrungsi/Documents/GitHub/demo/patient/patient.html</td>
 	<td></td>
 </tr>
 <tr>
@@ -76,7 +76,6 @@
 	<td>css=input.form-control.username-form</td>
 	<td>sue@gmail.com</td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
