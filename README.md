@@ -1,10 +1,10 @@
-# demo
 # Why I am here!
-Website is inspriration to swift a carrer, I would like to share my memorizes and expreiences. 
+Showing my skills as a tester using automation. I would like to share my memories and expreiences. 
 
-I have started to learn about html and css to build a website. Bootstrap is a tool for creating a website and web application. Grid system is to display a certain number of item. There are 24 columns on a screen for responsiveness.
-I have trained Selenium for automated testing. 
-Creating my own forms for Selenium testing, I started to use html css and bootstrap to build forms.
+I have learned about html and css. Below are a few example I would like to share. Bootstrap is a css library for creating a dynamic web applications. The Grid system is to arrange elements depending on the device used to view the webpage. There are 12 columns per row and can be used in many different ways.
+
+I have trained with Selenium for automated testing. 
+Creating my own forms using Bootstrap and HTML for Selenium testing.
 
 ## What I have done on my purpose.
 I use a selenium for testing with my own forms!!
