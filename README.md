@@ -1,12 +1,12 @@
 # demo
-#Why I am here!
+# Why I am here!
 Website is inspriration to swift a carrer, I would like to share my memorizes and expreiences. 
 
 I have started to learn about html and css to build a website. Bootstrap is a tool for creating a website and web application. Grid system is to display a certain number of item. There are 24 columns on a screen for responsiveness.
 I have trained Selenium for automated testing. 
 Creating my own forms for Selenium testing, I started to use html css and bootstrap to build forms.
 
-##What I have done on my purpose.
+## What I have done on my purpose.
 I use a selenium for testing with my own forms!!
 Creating a test plan;
 1. Creating a scenario: checking email and password by creating a right and wrong password.
